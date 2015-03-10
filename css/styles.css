@@ -1,2 +1,44 @@
 body {
+	background: url(../img/bg.png);
+}
+
+/* layout */
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	background: teal;
+}
+
+article section {
+	width: 50%;
+	float: left;
+}
+
+img, iframe {
+	max-width: 100%;
+	width: 100%;
+}
+
+@media (min-width: 960px)  {
+
+	#top {
+		width: 300px;
+	}
+	
+}
+
+@media (max-width: 768px)  {
+
+	section img {
+		width: 80%;
+	}
+	
+	section h1 {
+		text-transform: uppercase;
+	}
+
+	article section {
+		width: 100%;
+	}
 }
