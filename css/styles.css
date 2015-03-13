@@ -82,6 +82,12 @@ nav ul li a {
 	color: hsl(0, 0%, 55%);
 }
 
+/* transform */
+
+#top:hover {
+	transform: skewX(-200deg);
+}
+
 @media (min-width: 960px)  {
 
 	#top {
@@ -118,8 +124,12 @@ nav ul li a {
 		height: 200px;
 	}
 
+	p {
+		line-height: 1.75em;
+	}
+
 	nav ul li a {
-		font-size: 1.5em;
+		font-size: 1.2em;
 		color: hsl(0, 0%, 55%);
 		margin-bottom: 25px;
 	}
