@@ -7,17 +7,38 @@ body {
 .container {
 	width: 90%;
 	margin: 0 auto;
-	background: teal;
 }
 
 article section {
-	width: 50%;
+	width: calc(50% - 15px);
 	float: left;
+}
+
+article section:first-of-type {
+	margin-right: 30px;
 }
 
 img, iframe {
 	max-width: 100%;
 	width: 100%;
+}
+
+ul {
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	float: left;
+	padding-right: 15px;
+}
+
+header {
+	margin: 50px auto;
 }
 
 @media (min-width: 960px)  {
